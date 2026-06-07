@@ -4,17 +4,17 @@ echo "welcome to mental hospital!"
 </br>
 </br>
 
-<form>
-    Name:<input type="text">
+<form action="save.php" method="post">
+    Name:<input name="name" type="text">
 </br> 
 </br>
-    City:<input type="text">
+    City:<input name="city" type="text">
 </br>
 </br>
-    PhoneNo:<input type="text">
+    PhoneNo:<input name="phoneno" type="text">
 </br>
 </br>
-    Email:<input type="text">
+    Email:<input name="email" type="text">
   </br>
   </br>  
 <input type="submit">
