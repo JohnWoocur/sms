@@ -1,24 +1,17 @@
 <?php
-echo "View Mentals!!"
-?>
-</br>
-</br>
+echo "View Mentals!! </br>";
 
-<form>
-    UserID:<input type="text">
-</br>
-</br>
-    Name:<input type="text">
-</br> 
-</br>
-    City:<input type="text">
-</br>
-</br>
-    PhoneNo:<input type="text">
-</br>
-</br>
-    Email:<input type="text">
-  </br>
-  </br>  
-<input type="Save!" value="Save!">
-</form>
+include "db.php";
+
+$sql = "SELECT * FROM admits";
+$res = mysqli_query($conn,$sql);
+while($row=mysqli_fetch_assoc($res))
+    {
+        echo "id: ".$row["Id"]."</br>";
+        echo "Name: ".$row["Name"]."</br>";
+        echo "City: ".$row["City"]."</br>";
+        echo "PhoneNo: ".$row["PhoneNO"]."</br>";
+        echo "Email: ".$row["Email"]."</br>";
+    }
+?>
+
