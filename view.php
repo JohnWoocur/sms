@@ -5,6 +5,9 @@ echo "View Mentals!!"
 </br>
 
 <form>
+    UserID:<input type="text">
+</br>
+</br>
     Name:<input type="text">
 </br> 
 </br>
@@ -17,5 +20,5 @@ echo "View Mentals!!"
     Email:<input type="text">
   </br>
   </br>  
-<input type="Save!">
+<input type="Save!" value="Save!">
 </form>

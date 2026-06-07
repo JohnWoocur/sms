@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  <?php
 echo "welcome to mental hospital!"
 ?>
@@ -19,3 +20,6 @@ echo "welcome to mental hospital!"
   </br>  
 <input type="submit">
 </form>
+=======
+<?php
+>>>>>>> c39e17f3c9bb54d6b3651c1ec7112151cd7157f8
