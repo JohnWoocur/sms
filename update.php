@@ -4,6 +4,7 @@
 <br>
 <br/>
 <form>
+    User ID: <input type="text" name="id">
     Name: <input type="text" name="name">
     <br>
     Contact: <input type="text" name="contact">
@@ -12,5 +13,5 @@
     <br>
     Email: <input type="text" name="email">
     <br>
-        <input type="update" >
+        <input type="submit" value="Update">
 </form>
