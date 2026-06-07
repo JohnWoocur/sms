@@ -1,11 +1,13 @@
-<<<<<<< HEAD
- <?php
-echo "welcome to mental hospital!"
+<?php
+echo "View Mentals!!"
 ?>
 </br>
 </br>
 
 <form>
+    UserID:<input type="text">
+</br>
+</br>
     Name:<input type="text">
 </br> 
 </br>
@@ -18,8 +20,5 @@ echo "welcome to mental hospital!"
     Email:<input type="text">
   </br>
   </br>  
-<input type="submit">
+<input type="Save!" value="Save!">
 </form>
-=======
-<?php
->>>>>>> c39e17f3c9bb54d6b3651c1ec7112151cd7157f8
