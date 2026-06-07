@@ -1,5 +1,5 @@
- <?php
-echo "welcome to mental hospital!"
+<?php
+echo "View Mentals!!"
 ?>
 </br>
 </br>
@@ -17,5 +17,5 @@ echo "welcome to mental hospital!"
     Email:<input type="text">
   </br>
   </br>  
-<input type="submit">
+<input type="Save!">
 </form>
